@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* About Section starts */
+
+.about-section{
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 5px solid rgb(14, 124, 233);
+    border-radius: 20px;
+}
+
+.intro1{
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.intro1 h1{ 
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: rgb(14, 124, 233);
+
+}
+
+.intro1 h5{ 
+    font-size: 30px;
+}
+
+.intro2{
+    display: flex;
+}
+
+.intro2 img{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media screen and (min-width:0px) and (max-width:800px){
+    .about-section{
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+        
+    
+    .intro1 h1{ 
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .intro1 h5{ 
+        font-size: 15px;
+    }
+
+    .intro2{
+        flex-wrap: wrap;
+    }
+    
+}
